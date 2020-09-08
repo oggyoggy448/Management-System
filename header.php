@@ -1,3 +1,12 @@
+<!-- session start  -->
+<?php 
+
+session_start();
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,15 +51,23 @@
   <div class="collapse navbar-collapse" id="navbar">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active home">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item about">
-        <a class="nav-link " href="about.php">About Us</a>
+        <a class="nav-link text-white" href="about.php">About Us</a>
       </li>     
       
     </ul>
     <form class="form-inline my-2 my-lg-0">      
-      <a class="btn btn-light my-2 my-sm-0" href="login.php"> Login </a>
+      <?php if(!isset($_SESSION['email'])) { ?>
+        <a class="login_btn btn btn-light my-2 my-sm-0" href="login.php"> Login </a>
+      <?php }else { ?>
+      <a class="btn btn-danger my-2 my-sm-0" href="logout.php"> Logout </a>
+      <?php
+        
+        }
+      
+      ?>
     </form>
   </div>
 </nav>

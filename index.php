@@ -5,10 +5,10 @@
     <div class="row bg-light">
         <div class="col-md-6 text-center d-flex flex-column  
                         align-items-center align-self-center">
-            <div class="h1 animate__animated animate__backInDown">
+            <div class="h1 animate__animated animate__backInDown" data-aos="zoom-in-up">
                 Smart Management System
             </div>
-            <div class="animate__animated animate__backInLeft"> We provide a smart solution for all students of our
+            <div class="animate__animated animate__backInLeft" data-aos="zoom-in-up"> We provide a smart solution for all students of our
                 school for their
                 better future and successfull career.
             </div>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="col-md-6 animate__animated animate__zoomIn">
-            <img src="img/kids.jpg" class="img-fluid my-3" />
+            <img src="img/kids.jpg" class="img-fluid my-3" data-aos="zoom-in-up" />
         </div>
     </div>
 </div>
@@ -40,7 +40,7 @@
 
 <!-- login panel -->
 <div class="container-fluid bg-light pt-5">
-    <div class="text-center h2 pt-5 pb-2">
+    <div class="text-center h2 pt-5 pb-2" >
         LOGIN PANEL
     </div>
     <div class="row">
@@ -49,7 +49,7 @@
                 <div class="card-header">
                     Admin Panel
                 </div>
-                <img src="img/admin.jpg" alt="Admin" class="card-image-top img-fluid">
+                <img src="img/admin.jpg" data-aos="zoom-in-up" alt="Admin" class="card-image-top img-fluid">
                 <div class="card-body mt-5">
                     <h5 class="card-title" data-aos="zoom-in-up"> Admin </h5>
                     <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit illum, error
@@ -64,7 +64,7 @@
                 <div class="card-header">
                     Teacher Panel
                 </div>
-                <img src="img/teacher.jpg" alt="teacher" class="card-image-top img-fluid">
+                <img src="img/teacher.jpg" data-aos="zoom-in-up" alt="teacher" class="card-image-top img-fluid">
                 <div class="card-body">
                     <h5 class="card-title" data-aos="zoom-in-up"> Teacher </h5>
                     <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit illum, error
@@ -79,7 +79,7 @@
                 <div class="card-header">
                     Student Panel
                 </div>
-                <img src="img/student.jpg" alt="student" class="card-image-top img-fluid">
+                <img src="img/student.jpg" data-aos="zoom-in-up" alt="student" class="card-image-top img-fluid">
                 <div class="card-body">
                     <h5 class="card-title" data-aos="zoom-in-up"> Student </h5>
                     <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit illum, error

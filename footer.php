@@ -98,9 +98,16 @@ $(".link_to_white").hover(function(){
 function(){
   $(this).removeClass("text-white");
 }
-)
+);
 
 </script>
+
+
+<?php 
+  if(isset($conn)){
+    $conn->close();
+  }
+?> 
 </body>
 
 </html>
